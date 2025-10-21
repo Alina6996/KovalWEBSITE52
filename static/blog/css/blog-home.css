@@ -1,0 +1,100 @@
+/*!
+ * Start Bootstrap - Blog Home (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+footer {
+    margin: 50px 0;
+}
+
+/* Общий фон и цвет текста */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Ссылки */
+a {
+    color: #ffa500;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffb84d;
+}
+
+/* Navbar */
+.navbar, .footer {
+    background-color: #1f1f1f;
+    border-bottom: 1px solid #333;
+}
+
+/* Карточки, блоки и комментарии */
+.card, .well, .media {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+/* Заголовки */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+}
+
+/* Кнопки */
+.btn-primary {
+    background-color: #ffa500;
+    border-color: #ff9900;
+    color: #121212;
+}
+.btn-primary:hover {
+    background-color: #ffb84d;
+    border-color: #ffaa33;
+}
+
+/* Формы */
+input, textarea, select {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    color: #e0e0e0;
+}
+input:focus, textarea:focus, select:focus {
+    border-color: #ffa500;
+    outline: none;
+}
+
+/* Изображения */
+.img-responsive {
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Статусные блоки */
+.alert {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    border: 1px solid #333;
+}
+
+/* Пагинация */
+.pagination .page-item .page-link {
+    background-color: #1f1f1f;
+    color: #ffa500;
+    border-color: #333;
+}
+.pagination .page-item .page-link:hover {
+    background-color: #2a2a2a;
+}
+
+/* Footer */
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    color: #aaa;
+}
